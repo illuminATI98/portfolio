@@ -8,7 +8,7 @@ const scaleVariants = {
     scale: [0,1],
     opacity: [0,1],
     transition: {
-      duration: 1,
+      duration: 2,
       ease: 'easeInOut'
     }
   }
@@ -47,7 +47,7 @@ const Header = () => {
         <img src={images.profile} alt="profile_bg" />
         <motion.img
           whileInView={{scale: [0,1]}}
-          transition={{duration: 1, ease: "easeInOut"}}
+          transition={{duration: 3, ease: "easeInOut"}}
           src={images.circle}
           alt='profile-circle'
           className='overlay_circle'
