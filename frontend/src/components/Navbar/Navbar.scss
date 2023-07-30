@@ -8,7 +8,7 @@
   background: rgba($color: #ffffff, $alpha: 0.25);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba($color: #505050, $alpha: 0.2);
+  border: 1px solid rgba($color: #949494, $alpha: 0.2);
   position: fixed;
   z-index: 2;
 }
@@ -19,8 +19,8 @@
   align-items: center;
 
   img {
-    width: 90px;
-    height: 60px;
+    width: 110px;
+    height: 70px;
 
     @media screen and (min-width: 2000px){
       width: 180px;
