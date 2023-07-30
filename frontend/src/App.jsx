@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './App.css'
-import { About, Footer, Skills, Header } from './container';
+import './App.scss'
+import { About, Works, Footer, Skills, Header } from './container';
 import { Navbar } from './components';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Works />
       <Skills />
       <Footer />
     </div>
