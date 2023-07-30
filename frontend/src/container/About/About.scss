@@ -1,0 +1,61 @@
+#about {
+  position: relative;
+  background: linear-gradient(#1b2b3a, #314664);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  
+  .app__wrapper {
+    padding: 0;
+  }
+}
+
+.app__about {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  padding: 2rem 0 2rem;
+}
+
+.app__about-title {
+  span {
+    margin-left: 0.5rem;
+  }
+}
+
+.app__about-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+  .circle-codecool {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("../../assets/codecool.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    margin-left: 1rem;
+    box-shadow: 0 0 30px rgba(0,0,0, 0.1);
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    .circle-codecool {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.app__about-description {
+  background: rgba($color: #ffffff, $alpha: 0.5);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  max-width: 500px;
+  box-shadow: 0 0 30px rgba(0,0,0, 0.1);
+}
