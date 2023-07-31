@@ -41,14 +41,14 @@ const Header = () => {
       </motion.div>
 
       <motion.div
-        whileInView={{opacity: [0,1]}}
+        whileInView={{opacity: [0,1], y:[200,0]}}
         transition={{duration: 1, delayChildren: 0.5}}
         className='app__header-img'
       >
         <img src={images.profile} alt="profile_bg" />
         <motion.img
           whileInView={{scale: [0,1]}}
-          transition={{duration: 3, ease: "easeInOut"}}
+          transition={{duration: 2, ease: "easeInOut"}}
           src={images.circle}
           alt='profile-circle'
           className='overlay_circle'
