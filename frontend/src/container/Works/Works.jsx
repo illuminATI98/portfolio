@@ -13,7 +13,7 @@ const Works = () => {
     const query = '*[_type == "works"]';
     client.fetch(query)
       .then((data) => setWorks(data));
-  }, [])
+  }, []);
   
   return (
     <div className='app__works app__flex'>
