@@ -1,9 +1,7 @@
 #about {
   position: relative;
-  background: linear-gradient(90deg,#69b2cf, #314664);
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
+  background: linear-gradient(#7ab1d0, #d7dee8);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.8);
   
   .app__wrapper {
     padding: 0;
@@ -17,6 +15,7 @@
 }
 
 .app__about-title {
+  margin-bottom: 2rem;
   span {
     margin-left: 0.5rem;
   }
